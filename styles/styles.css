@@ -24,3 +24,12 @@ img {
 p {
     padding: 10px;
 }
+
+aside {
+    width: 50%;
+    margin: auto;
+    border: solid 5px gray;
+    padding: 15px;
+    background-color: darkblue;
+    color: white;
+}
