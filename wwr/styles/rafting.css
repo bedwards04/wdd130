@@ -1,0 +1,61 @@
+:root {
+    --primary-color: 73, 67, 50;
+    --secondary-color: 28, 147, 176;
+    --accent-color1: #93AC86;
+    --accent-color2: #CEE6C6;
+}
+
+body {
+    font-family: "ABeeZee", serif;
+}
+
+h1, h2 {
+    font-family: "Love Ya Like A Sister", serif;
+}
+
+h2 {
+    color: rgb(var(--primary-color));
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero h1, article {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: .5rem;
+}
+
+.hero h1 {
+    top: 5%;
+    text-align: center;
+    color: var(--accent-color2);
+    text-shadow: 5px 5px 5px black;
+    background-color: rgb(var(--primary-color), .8);
+}
+
+.hero article {
+    top: 40%;
+    background-color: rgb(var(--secondary-color), .8);
+}
+
+article div {
+    width: 175px;
+    height: auto;
+    margin: .5rem;
+    float: right;
+}
+
+footer a {
+    text-decoration: none;
+}
