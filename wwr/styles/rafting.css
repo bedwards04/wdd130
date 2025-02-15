@@ -70,7 +70,7 @@ h2 {
 .hero h1 {
     top: 5%;
     width: 550px;
-    background-color: rgb(var(--primary-color), .8);
+    background-color: rgb(var(--primary-color), .9);
     color: var(--accent-color2);
     text-shadow: 5px 5px 5px black;
 }
@@ -78,7 +78,7 @@ h2 {
 .hero article {
     top: 40%;
     width: 700px;
-    background-color: rgb(var(--secondary-color), .8);
+    background-color: rgb(var(--secondary-color), .9);
 }
 
 article div {
