@@ -7,14 +7,45 @@
 
 body {
     font-family: "ABeeZee", serif;
+    margin: 0;
+    background-color: var(--accent-color2);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background-color: rgb(var(--primary-color));
+    margin: 0;
+}
+
+header img {
+    width: 200px;
+    margin: 0 150px;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    flex: auto;
+    font-size: 20px;
+    padding: 20px;
+    color: var(--accent-color2);
 }
 
 h1, h2 {
     font-family: "Love Ya Like A Sister", serif;
+    text-align: center;
 }
 
 h2 {
     color: rgb(var(--primary-color));
+    margin: 0;
+    padding: 30px 0 0 0;
+    font-weight: bolder;
 }
 
 .hero {
@@ -25,27 +56,28 @@ h2 {
     display: block;
     width: 100%;
     height: auto;
-    object-fit: cover;
 }
 
 .hero h1, article {
     position: absolute;
     right: 0;
     left: 0;
-    margin: 0;
+    margin: auto;
     padding: .5rem;
+    border: 2px solid black;
 }
 
 .hero h1 {
     top: 5%;
-    text-align: center;
+    width: 550px;
+    background-color: rgb(var(--primary-color), .8);
     color: var(--accent-color2);
     text-shadow: 5px 5px 5px black;
-    background-color: rgb(var(--primary-color), .8);
 }
 
 .hero article {
     top: 40%;
+    width: 700px;
     background-color: rgb(var(--secondary-color), .8);
 }
 
@@ -54,6 +86,59 @@ article div {
     height: auto;
     margin: .5rem;
     float: right;
+}
+
+#history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    
+}
+
+#history, #adventures {
+    padding: 50px 10px;
+}
+
+#history img {
+    width: 300px;
+    order: 1;
+}
+
+#history img, .adventure-image {
+    border: 3px solid rgb(var(--secondary-color));
+}
+
+#history p {
+    background-color: var(--accent-color1);
+    padding: 30px;
+    border: 3px solid black;
+}
+
+#history p:nth-child(2) {
+    order: 2;
+}
+
+#adventures {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0;
+}
+
+.adventure-image {
+    width: 200px;
+    margin: 0;
+}
+
+#adventures figcaption {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid black;
 }
 
 footer a {
