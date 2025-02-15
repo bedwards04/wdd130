@@ -109,9 +109,9 @@ article div {
 }
 
 #history p {
-    background-color: var(--accent-color1);
+    /* background-color: var(--accent-color1); */
     padding: 30px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 #history p:nth-child(2) {
