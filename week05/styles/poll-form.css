@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, legend {
+    margin: 30px 0;
+}
+
+h1 {
+    font-family: Offside, serif;
+    text-align: center;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    width: 600px;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+legend {
+    font-family: "Edu VIC WA NT Beginner", serif;
+    font-size: 25px;
+    font-weight: ;
+    padding: 5px;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    font-size: medium;
+}
+
+textarea {
+    margin: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 10px auto;
+    width: 100px;
+    padding: 7px;
+    font-size: medium;
+}
+
+button:hover {
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+footer {
+    width: 700px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    border-top: 3px dotted gray;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
+
+.column1, .column2 {
+    margin: 10px 20px;
+}
