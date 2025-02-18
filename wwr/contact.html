@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Whitewater Rafting</title>
+    <meta name="author" content="Brendan Edwards">
+    <meta name="description" content="Send us an inquiry for trip details, or contact us via phone or email">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Whitewater rafting text with splash and oars">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contact Whitewater Rafting</h1>
+            <div id="contact">
+                <div>
+                    <p>Online Inquiry</p>
+                    <form id="inquiry-form">
+                        <fieldset id="basic-info">
+                            <legend>Basic Information</legend>
+                            <label for="fname">First Name:</label>
+                            <input type="text" placeholder="First Name" name="fname" id="fname">
+                            <label for="lname">Last Name:</label>
+                            <input type="text" placeholder="Last Name" name="lname" id="lname">
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="email@example.com" name="email" id="email">
+                        </fieldset>
+                        <fieldset id="message-purpose">
+                            <legend>Purpose of Message</legend>
+                            <div>
+                                <input type="radio" name="purpose" id="general-inquiry">
+                                <label for="general-inquiry">General Inquiry</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="purpose" id="reservationq">
+                                <label for="reservationq">Reservation Question</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="purpose" id="suggestion" value="suggestion">
+                                <label for="suggestion">Website Suggestion</Label>
+                            </div>
+                            <div id="textarea">
+                                <label for="message">Message:</label>
+                                <textarea name="message" placeholder="Message" id="message"></textarea>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="newsletter" id="newsletter">
+                                <label for="newsletter">Subscribe to our monthly newsletter</label>
+                            </div>
+                        </fieldset>
+                        <input type="submit" name="submit" id="submit" value="Submit">
+                    </form>
+                </div>
+                <div id="contact-details">
+                    <p>Contact Details</p>
+                    <p>contact@whitewaterrafting.com</p>
+                    <p>(123) 456-7890</p>
+                    <p>123 Center Street Green Lake, OR 12345</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d34082.35697558983!2d-119.99904512217934!3d44.79783096112986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1739824582342!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Meet the Team</h2>
+            <div id="team-section">
+                <figure>
+                    <img src="images/employee1.jpg" alt="" class="team-photos">
+                    <figcaption>Marcus - Owner</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="" class="team-photos">
+                    <figcaption>Chelsea - Marketing Specialist</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="" class="team-photos">
+                    <figcaption>Emma - Customer Service</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Whitewater Rafting | Brendan Edwards</p>
+        <a href="https://www.figma.com/design/Usu3Pf6b134CtQ3EplkyML/Contact-Wireframe?node-id=0-1&t=rWdg3Yy5WCU36GFH-1" target="_blank">Figma Wireframe Link</a>
+        <div>
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.svg" alt="Facebook logo" width="100">
+            </a>
+            <a href="https://x.com/">
+                <img src="images/x.svg" alt="X logo" width="100">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.svg" alt="Instagram logo" width="100">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
