@@ -181,7 +181,7 @@ fieldset {
     width: 300px;
 }
 
-input, textarea {
+input, textarea, button {
     margin-bottom: 1rem;
     padding: 5px;
 }
@@ -196,7 +196,7 @@ input, textarea {
     height: 5rem;
 }
 
-#submit {
+button {
     width: 5rem;
     align-self: center;
 }
